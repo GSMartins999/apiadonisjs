@@ -15,11 +15,11 @@ import Server from '@ioc:Adonis/Core/Server'
 |--------------------------------------------------------------------------
 | Global middleware
 |--------------------------------------------------------------------------
-|
+| 
 | An array of global middleware, that will be executed in the order they
 | are defined for every HTTP requests.
 |
-*/
+*/ 
 Server.middleware.register([
   () => import('@ioc:Adonis/Core/BodyParser'),
 ])

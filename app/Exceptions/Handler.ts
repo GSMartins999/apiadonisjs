@@ -10,7 +10,7 @@
 | The exception handler extends a base `HttpExceptionHandler` which is not
 | mandatory, however it can do lot of heavy lifting to handle the errors
 | properly.
-|
+| 
 */
 
 import Logger from '@ioc:Adonis/Core/Logger'
@@ -21,3 +21,4 @@ export default class ExceptionHandler extends HttpExceptionHandler {
     super(Logger)
   }
 }
+ 

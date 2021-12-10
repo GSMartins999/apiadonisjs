@@ -23,8 +23,8 @@ declare module '@ioc:Adonis/Core/Event' {
   |
   | Now calling `Event.emit('new:user')` will statically ensure that passed value is
   | an instance of the the UserModel only.
-  |
+  | 
   */
   interface EventsList {
   }
-}
+} 

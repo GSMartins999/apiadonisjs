@@ -19,13 +19,13 @@
       "args": [],
       "aliases": [],
       "flags": [
-        {
+        { 
           "name": "json",
           "propertyName": "json",
           "type": "boolean",
           "description": "Output as JSON"
         }
-      ]
+      ] 
     },
     "generate:key": {
       "settings": {},

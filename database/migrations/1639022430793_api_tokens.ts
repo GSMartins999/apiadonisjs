@@ -23,3 +23,4 @@ export default class ApiTokens extends BaseSchema {
     this.schema.dropTable(this.tableName)
   }
 }
+  

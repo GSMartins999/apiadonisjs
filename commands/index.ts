@@ -9,7 +9,7 @@ import Application from '@ioc:Adonis/Core/Application'
 | Instead of manually exporting each file from this directory, we use the
 | helper `listDirectoryFiles` to recursively collect and export an array
 | of filenames.
-|
+| 
 | Couple of things to note:
 |
 | 1. The file path must be relative from the project root and not this directory.
@@ -17,3 +17,4 @@ import Application from '@ioc:Adonis/Core/Application'
 |
 */
 export default listDirectoryFiles(__dirname, Application.appRoot, ['./commands/index'])
+  

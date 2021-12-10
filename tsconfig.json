@@ -22,9 +22,9 @@
         "./contracts/*"
       ],
       "Database/*": [
-        "./database/*"
+        "./database/*" 
       ]
-    },
+    }, 
     "types": [
       "@adonisjs/core",
       "@adonisjs/repl",

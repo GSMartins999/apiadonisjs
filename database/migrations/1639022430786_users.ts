@@ -22,3 +22,4 @@ export default class UsersSchema extends BaseSchema {
     this.schema.dropTable(this.tableName)
   }
 }
+  

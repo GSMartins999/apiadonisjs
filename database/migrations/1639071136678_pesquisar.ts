@@ -28,3 +28,4 @@ export default class Pesquisar extends BaseSchema {
     this.schema.dropTable(this.tableName)
   }
 }
+  

@@ -12,7 +12,7 @@ const bodyParserConfig: BodyParserConfig = {
   |--------------------------------------------------------------------------
   | White listed methods
   |--------------------------------------------------------------------------
-  |
+  | 
   | HTTP methods for which body parsing must be performed. It is a good practice
   | to avoid body parsing for `GET` requests.
   |
@@ -23,7 +23,7 @@ const bodyParserConfig: BodyParserConfig = {
   |--------------------------------------------------------------------------
   | JSON parser settings
   |--------------------------------------------------------------------------
-  |
+  | 
   | The settings for the JSON parser. The types defines the request content
   | types which gets processed by the JSON parser.
   |

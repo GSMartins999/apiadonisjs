@@ -16,8 +16,8 @@
   "preloads": [
     "./start/routes",
     "./start/kernel"
-  ],
-  "providers": [
+  ], 
+  "providers": [ 
     "./providers/AppProvider",
     "@adonisjs/core",
     "@adonisjs/auth",

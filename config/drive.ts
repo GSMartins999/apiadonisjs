@@ -19,7 +19,7 @@ import Application from '@ioc:Adonis/Core/Application'
 |
 */
 const driveConfig: DriveConfig = {
-  /*
+  /*  
   |--------------------------------------------------------------------------
   | Default disk
   |--------------------------------------------------------------------------

@@ -21,3 +21,4 @@ export default class Pesquisar extends BaseModel {
   @belongsTo (() => User)
    public user: BelongsTo<typeof User>
 }
+  

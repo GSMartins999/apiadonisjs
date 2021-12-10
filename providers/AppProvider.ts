@@ -13,10 +13,11 @@ export default class AppProvider {
   }
 
   public async ready () {
-    // App is ready
+    // App is ready 
   }
 
   public async shutdown () {
     // Cleanup, since app is going down
   }
 }
+   
