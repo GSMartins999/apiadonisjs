@@ -19,7 +19,7 @@ const corsConfig: CorsConfig = {
   | Setting the value to `true` will enable the CORS for all HTTP request. However,
   | you can define a function to enable/disable it on per request basis as well.
   |
-  */
+  */ 
   enabled: false, 
 
   // You can also use a function that return true or false.

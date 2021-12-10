@@ -22,4 +22,4 @@ declare module '@ioc:Adonis/Core/Env' {
   interface EnvTypes extends CustomTypes {
   }
 }
-  
+   

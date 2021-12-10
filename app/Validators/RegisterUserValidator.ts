@@ -51,4 +51,4 @@ export default class RegisterUserValidator {
     'minLength': "Tamanho de senha invalido"
   }
 }
-  
+   

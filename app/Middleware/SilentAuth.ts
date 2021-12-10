@@ -19,4 +19,4 @@ export default class SilentAuthMiddleware {
     await next()
   }
 }
-  
+   

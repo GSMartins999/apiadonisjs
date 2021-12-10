@@ -18,6 +18,6 @@ export default class AppProvider {
 
   public async shutdown () {
     // Cleanup, since app is going down
-  }
+  } 
 }
    

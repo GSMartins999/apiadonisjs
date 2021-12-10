@@ -21,7 +21,7 @@ import Application from '@ioc:Adonis/Core/Application'
 const driveConfig: DriveConfig = {
   /*  
   |--------------------------------------------------------------------------
-  | Default disk
+  | Default disk 
   |--------------------------------------------------------------------------
   |
   | The default disk to use for managing file uploads. The value is driven by

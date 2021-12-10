@@ -30,4 +30,4 @@ Route.get("/pesquisar", "Authcontroller.login")
 Route.group(() =>{
   Route.resource("pesquisar", 'PesquisarController').apiOnly().except(['index'])
 }).middleware('auth')
-  
+   

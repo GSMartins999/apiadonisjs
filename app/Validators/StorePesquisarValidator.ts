@@ -43,4 +43,4 @@ export default class StorePesquisarValidator {
   required: "O {{field}} Digite algo para que possamos procurar para você!!!"
   }
 }
-  
+   

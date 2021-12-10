@@ -16,7 +16,7 @@ import { ValidatorConfig } from '@ioc:Adonis/Core/Validator'
 |--------------------------------------------------------------------------
 | Application secret key
 |--------------------------------------------------------------------------
-|
+| 
 | The secret to encrypt and sign different values in your application.
 | Make sure to keep the `APP_KEY` as an environment variable and secure.
 |

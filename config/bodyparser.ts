@@ -19,7 +19,7 @@ const bodyParserConfig: BodyParserConfig = {
   */
   whitelistedMethods: ['POST', 'PUT', 'PATCH', 'DELETE'],
 
-  /*
+  /* 
   |--------------------------------------------------------------------------
   | JSON parser settings
   |--------------------------------------------------------------------------

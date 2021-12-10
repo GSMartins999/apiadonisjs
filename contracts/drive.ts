@@ -18,7 +18,7 @@ declare module '@ioc:Adonis/Core/Drive' {
     // gcs: {
     //   config: GcsDriverConfig
     //   implementation: GcsDriverContract
-    // }
+    // } 
   }
 }
   

@@ -32,4 +32,4 @@ export default class User extends BaseModel {
   @hasMany(() => Pesquisar)
   public pesquisar:  HasMany<typeof Pesquisar>
 }
-  
+   

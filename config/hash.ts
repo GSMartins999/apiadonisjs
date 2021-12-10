@@ -42,7 +42,7 @@ const hashConfig: HashConfig = {
     |
     | npm install phc-argon2
     |
-    */ 
+    */  
     argon: { 
       driver: 'argon2',
       variant: 'id',

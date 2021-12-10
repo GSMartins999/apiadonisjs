@@ -21,6 +21,6 @@ export default class ApiTokens extends BaseSchema {
 
   public async down() {
     this.schema.dropTable(this.tableName)
-  }
+  } 
 }
   

@@ -17,4 +17,4 @@ declare module '@ioc:Adonis/Core/Hash' {
     },
   }
 }
-  
+   
