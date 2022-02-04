@@ -21,12 +21,12 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.get('/', async () => {
-  return { hello: 'world' }
+  return { oi: 'mundo' }
 })
 
-Route.post ("/register", "Authcontroller.register")
-Route.post ("/login", "Authcontroller.login")
-Route.get("/pesquisar", "Authcontroller.login")
+Route.post ("/register", "Controller")
+Route.post ("/login", "Controller")
+Route.get("/pesquisar", "Controller")
 Route.group(() =>{
   Route.resource("pesquisar", 'PesquisarController').apiOnly().except(['index'])
 }).middleware('auth')
